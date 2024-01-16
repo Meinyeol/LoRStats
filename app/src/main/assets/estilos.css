@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.galeria h1{
+    text-align: center;
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    color:white;
+    margin:20px 0 15px 0;
+    font-weight: 900;
+
+}
+body{
+    background-image: url("img/3.jpg");
+    background-color: #000000;
+}
+
+.hero-image{
+      background-image: url("img/2.png");
+      background-color: #000000;
+}
+.linea{
+    border-top: 5px solid #FFCC3D;
+    margin-bottom: 40px;
+    border: black 2px solid;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.imagen{
+    text-align:center;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen img{
+    width: 60%;
+    height:60%;
+    filter: drop-shadow(8px 8px 8px #AAA);
+}
+
+
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
