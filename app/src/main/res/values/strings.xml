@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoRStats</string>
+    <string name="aI_name">Home</string>
+    <string name="aC_name">Cards</string>
+    <string name="aS_name">Stats</string>
+    <string name="bt_name">+</string>
+    <string name="name">Name</string>
+    <string name="button">Search</string>
+    <string name="todo">TODO</string>
+    <string name="remove_deck">Remove Deck</string>
+</resources>
